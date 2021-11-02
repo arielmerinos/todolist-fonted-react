@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+const todos = [
+  {text: "Terminar curso de React.js", completed: false},
+  {text: "Implementar Backend aquí", completed: false},
+  {text: "Ver una peli con Jesús", completed: false}
+]
+
 function App() {
   return (
     <div className="App">
